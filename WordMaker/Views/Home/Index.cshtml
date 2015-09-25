@@ -1,0 +1,25 @@
+﻿<div ng-controller="main-page-controller">
+    <div>
+        <input ng-click="startNewGame()" type="submit" class="btn" value="Новая игра" />
+    </div>
+    <div class="container">
+        <div id="gameField" class="overflow">
+            <div>
+                <div id="defaultSymbols"></div>
+            </div>
+            
+            <div>
+                <div id="resultSymbols"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/app/app.js"></script>
+    <script src="~/Scripts/app/controllers/Modals/controller.modal.register.js"></script>
+    <script src="~/Scripts/app/controllers/layout.controller.js"></script>    
+    <script src="~/Scripts/app/services/data.words.js"></script>
+    <script src="~/Scripts/app/services/data.players.js"></script>
+    <script src="~/Scripts/app/controllers/main.page.controller.js"></script>
+}

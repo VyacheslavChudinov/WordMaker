@@ -1,0 +1,1 @@
+﻿wordMakerApp = angular.module('wordMakerApp', ['ui.bootstrap']);
